@@ -1,0 +1,20 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m">
+	<App id="app">
+		<pages>
+			<Text text="{/Suppliers/0/Name}"/>
+			<!--<mvc:XMLView-->
+			<!--	id="masterPage"-->
+			<!--	viewName="sapui5.demo.mvcapp.view.Master" />-->
+			<!--<mvc:XMLView-->
+			<!--	id="detailPage"-->
+			<!--	viewName="sapui5.demo.mvcapp.view.Detail" />				-->
+		</pages>
+		<pages>
+			<Input value="{/Suppliers/0/Name}"/>
+		</pages>
+			
+	</App>
+</mvc:View>
